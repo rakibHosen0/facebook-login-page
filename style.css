@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f0f2f5;
+}
+.facebook {
+  color: #156fe5;
+  font-size: 50px;
+}
+.text h3 {
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;
+}
+.main-content {
+  width: 80%;
+  margin: 0px auto;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  width: 400px;
+  height: 325px;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+input {
+  padding: 14px 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #eff1f4;
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+}
+input:focus {
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.btn {
+  width: 100%;
+  border-radius: 6px;
+  padding: 14px 16px;
+  background-color: #156fe5;
+  border: none;
+  margin: 10px 0px;
+  color: white;
+  font-size: 16px;
+}
+
+.login-container p {
+  color: #156fe5;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.btn-create {
+  width: 50%;
+  border-radius: 6px;
+  padding: 14px 16px;
+  background-color: #59b82b;
+  border: none;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  margin-left: 25%;
+  margin-top: 16px;
+}
+p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 12px;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+}
